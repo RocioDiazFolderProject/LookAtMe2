@@ -1,3 +1,6 @@
+import logo from '../logo.ico';
+import index from '../index.css';
+
 const Paginappal = () => {
 return (
 <h3>
@@ -33,33 +36,33 @@ return (
     </div> 
 
   <ul>
-    {/*  <li>
-          <a href="/src/pages/misdatos.jsx">Mis Datos</a>
+      <li>
+          <a href="">Mis Datos</a>
       </li>
       <li>
-          <a href="/src/pages/misrecetas.jsx">Mis Recetas</a>
+          <a href="">Mis Recetas</a>
       </li>
       <li>
-          <a href="/src/pages/midia.jsx">Mi Día</a>
+          <a href="">Mi Día</a>
       </li>
       <li>
-          <a href="/src/pages/misemana.jsx">Mi Semana</a>
+          <a href="">Mi Semana</a>
       </li>
       <li>
-          <a href="/src/pages/mimes.jsx">Mi Mes</a>
+          <a href="">Mi Mes</a>
       </li>
       <li>
-          <a href="/src/pages/mitrimestre.jsx">Mi Trimestre</a>
+          <a href="">Mi Trimestre</a>
       </li>
       <li>
-          <a href="/src/pages/misemestre.jsx">Mi Semestre</a>
+          <a href="">Mi Semestre</a>
       </li>
       <li>
-          <a href="/src/pages/mianio.jsx">Mi Año</a>
+          <a href="/">Mi Año</a>
       </li>
       <li>
-          <a href="/src/pages/mismetas.jsx">Mis metas</a>
-      </li>*/}
+          <a href="">Mis metas</a>
+      </li>
   
   </ul>
 
