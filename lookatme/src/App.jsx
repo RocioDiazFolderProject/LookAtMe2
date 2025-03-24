@@ -1,6 +1,6 @@
-import logo from '../src/logo.ico';
+//import logo from '../src/logo.ico';
 import './App.css';
-
+import Paginainicio from './componentes/paginainicio';  
 //req = request -> petición del cliente
 // res = response -> respuesta del servidor
 // cliente = navegador
@@ -17,21 +17,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          LookAtMe - lleva tus métricas y progresos a un click
-
-        </p>
-        
-          <a> IMC</a>
-          <a> Ingestas/Hidratación</a>
-          <a> Menus</a>
-          <a> Actividades(alto rendimiento/otros)</a>
-        
-      </header>
+     <Paginainicio/>
     </div>
   );
 }
 
 export default App;
+
