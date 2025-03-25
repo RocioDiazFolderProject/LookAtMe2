@@ -1,6 +1,10 @@
 import React from 'react';
 
-<header className="mianio">MI AÑO
-    <a>estamos probando</a>
-</header>
+const Anual = () => {
+    return (
+        <header className="anual">ANUAL</header>
+    );
+}   
+
+export default Anual;
 

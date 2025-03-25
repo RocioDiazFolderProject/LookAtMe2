@@ -1,3 +1,11 @@
 import React from 'react';
 
-<header className="mimes">MI MES</header>
+const Mes = () => {
+    return (
+        <h1>
+            <header className="mimes">MI MES</header>
+        </h1>
+    );
+}
+
+export default Mes;

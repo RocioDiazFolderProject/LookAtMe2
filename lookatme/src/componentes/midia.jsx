@@ -1,3 +1,9 @@
 import React from 'react';
 
-<header className="midia">MI DIA</header>
+const Dia = () => {
+    return (
+        <header className="midia">MI DIA</header>
+    );
+}
+
+export default Dia;

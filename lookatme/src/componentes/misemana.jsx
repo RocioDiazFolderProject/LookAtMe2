@@ -1,3 +1,9 @@
 import React from 'react';
 
-<header className="misemana"> MI SEMANA</header>
+const Misemana = () => {
+    return (
+        <header className="misemana">MI SEMANA</header>
+    );
+}   
+
+export default Misemana;

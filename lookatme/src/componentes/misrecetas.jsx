@@ -1,3 +1,9 @@
 import React from 'react';
 
-<header className="misrecetas">MIS RECETAS</header>
+const Receta = () => {
+    return (
+        <header className="misrecetas">MIS RECETAS</header>
+    );
+}
+
+export default Receta;

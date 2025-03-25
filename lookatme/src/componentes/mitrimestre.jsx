@@ -1,3 +1,9 @@
 import React from 'react';
 
-<header className="mitrimestre">MI TRIMESTRE</header>
+const Trimestre = () => {
+    return (
+        <header className="mitrimestre">MI TRIMESTRE</header>
+    );
+}   
+
+export default Trimestre;

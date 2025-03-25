@@ -1,3 +1,9 @@
 import React from 'react';
 
-<header className="mismetas">MIS METAS</header>
+const Metas = () => {
+    return (
+        <header className="mismetas">MIS METAS</header>
+    );
+}       
+
+export default Metas;

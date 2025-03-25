@@ -1,6 +1,17 @@
+import React from 'react';
 import logo from '../logo.ico';
-import index from '../index.css';
-import {Link} from 'react-router-dom';
+import  '../index.css';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Dia from './midia';
+import Mes from './mimes';
+import Anual from './anual';
+import Trimestre from './mitrimestre';
+import Semestre from './misemestre';
+import Metas from './mismetas';
+import Receta from './misrecetas';
+import Misdatos from './misdatos';
+import Misemana from './misemana';
+import Navbar from './navbar';
 
 
 const Paginappal = () => {
@@ -36,49 +47,24 @@ return (
     <div className = "plato">Plato</div>  
     <div className = "metas">Metas</div>  
     </div> 
+<BrowserRouter>
+    <Navbar />
+    <Routes>
+        
+        <Route  path="/datos" element={<Misdatos />}></Route>
+        <Route  path="/recetas" element={<Receta />}></Route>
+        <Route  path="/dia" element={<Dia />}></Route>
+        <Route  path="/semana" element={<Misemana />}></Route>
+        <Route  path="/mes" element={<Mes />}></Route>
+        <Route  path="/trimestre" element={<Trimestre />}></Route>
+        <Route  path="/semestre" element ={<Semestre />}></Route>
+        <Route  path="/anual" element={<Anual />}></Route>
+        <Route  path="/metas" element={<Metas />}></Route>
+        
 
-  <ul>
-      <li>
-          {/*<a href="">Mis Datos</a>*/}
-          <Link to="/src/componentes/misdatos.jsx">Mis Datos</Link>
+    </Routes>
 
-      </li>
-      <li>
-          {/*<a href="">Mis Recetas</a>*/}
-          <Link to="/src/componentes/misrecetas.jsx">Mis Recetas</Link>
-          
-      </li>
-      <li>
-          {/*<a href="">Mi Día</a>*/}
-            <Link to="/src/componentes/midia.jsx">Mi Día</Link>
-      </li>
-      <li>
-          {/*<a href="">Mi Semana</a>*/}
-            <Link to="/src/componentes/misemana.jsx">Mi Semana</Link>
-      </li>
-      <li>
-          {/*<a href="">Mi Mes</a>*/}
-          <Link to="/src/componentes/mimes.jsx">Mi Mes</Link>
-      </li>
-      <li>
-         {/* <a href="">Mi Trimestre</a>*/}
-          <Link to="/src/componentes/mitrimestre.jsx">Mi Trimestre</Link>   
-      </li>
-      <li>
-          {/*<a href="">Mi Semestre</a>*/}
-          <Link to="/src/componentes/misemestre.jsx">Mi Semestre</Link>
-      </li>
-      <li>
-          {/*<a href="/">Mi Año</a>*/}      
-            <Link to="/src/componentes/miano.jsx">Mi Año</Link>
-      </li>
-      <li>
-          {/*<a href="">Mis metas</a>*/}
-          <Link to="/src/componentes/mismetas.jsx">Mis metas</Link>
-      </li>
-  
-  </ul>
-
+</BrowserRouter>
   </header>
   
   

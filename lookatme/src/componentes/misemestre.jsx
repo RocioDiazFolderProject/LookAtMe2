@@ -1,3 +1,9 @@
 import React from 'react';
 
-<header className="misemestre">MI SEMESTRE</header>
+const Semestre = () => {    
+    return (
+        <header className="misemestre">MI SEMESTRE</header>
+    );
+}                   
+
+export default Semestre;
