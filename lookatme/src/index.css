@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: whitesmoke;
+  background: rgb(199, 196, 196); /*despues ver fondo con imagen */
   color: white;
 }
 
@@ -25,6 +25,7 @@ button{
 h3{
   background-color: rgb(12, 39, 66);
 }
+
 h1{
 color: gold;
 background-color: rgb(111, 113, 114);
@@ -47,14 +48,18 @@ font-size:larger;
 {
  
   color: gold;
-  background-color: rgb(111, 113, 114);
+  /*background-color: rgb(111, 113, 114);*/
   margin-left: 15px;
   margin-right: 5px;
   
 } 
+.logo{
+  /*animar el logo */
+  
+}
 .metas{
   color: gold;
-  background-color: rgb(111, 113, 114);
+  /*background-color: rgb(111, 113, 114);*/
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -71,7 +76,7 @@ font-size:larger;
 
 ul
 ,li
-,a{
+{
 
   color: gold;
   display: flex;
@@ -84,8 +89,31 @@ ul
  
 }
 
+.misdatos{
+  background-color: olivedrab;
+  display:table-row-group;
+  font-size:small;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
 
-
+.header_datos{
+  background-color: olivedrab;
+}
+.form_datos{
+  background-color: olivedrab;
+  display: flex;
+  
+  font-size:small;
+  margin: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+.btn_guardar{
+  margin-left: 20px;
+}
 
 
 

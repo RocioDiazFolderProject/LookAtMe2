@@ -26,22 +26,23 @@ return (
  <div className="lg_centrar"> 
     <div className="logoizq">
             <div className="logo">
-            <a><img src ={logo} alt="" width="80"/></a>
+            <a><img className ="logo" src ={logo} alt="" width="80"/></a>
            </div>     
     </div>       
   
   <div className ="usu_der">  
             <div>
-              <a>Usuario: Andrea</a>
-              <a>Dia de la semana: </a>
+              <label>Usuario:</label>
+              
+              <label>Dia de la semana: </label>
             </div>
            
     </div>
     
     <div>
-      <h1>TU ALIMENTACIÓN ÓPTIMA ES POSIBLE</h1>
-      <h1>TE AYUDO A ORGANIZARTE</h1>
-      <h1>para tus compras, para tus recetas, para tus metas</h1>
+      <h3>TU ALIMENTACIÓN ÓPTIMA ES POSIBLE</h3>
+      <h3>TE AYUDO A ORGANIZARTE</h3>
+      <h3>para tus compras, para tus recetas, para tus metas</h3>
     </div>
         
     <div className = "plato">Plato</div>  
