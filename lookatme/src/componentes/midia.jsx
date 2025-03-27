@@ -1,6 +1,6 @@
 import React from 'react';
-import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+import {Tab, Tabs, TabList} from 'react-tabs';
+//import 'react-tabs/style/react-tabs.css';
 
 
 const Dia = () => {

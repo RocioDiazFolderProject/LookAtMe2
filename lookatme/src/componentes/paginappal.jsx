@@ -16,63 +16,49 @@ import Navbar from './navbar';
 
 const Paginappal = () => {
 return (
-<h3>
-
-
 <div className='App'>
- 
- <h1>HOLA, ME ALEGRA VERTE, COMENCEMOS</h1>
- <header>
- <div className="lg_centrar"> 
-    <div className="logoizq">
-            <div className="logo">
-            <a><img className ="logo" src ={logo} alt="" width="80"/></a>
-           </div>     
-    </div>       
+  <h1>HOLA, ME ALEGRA VERTE, COMENCEMOS</h1>
+  <header>
+    <div className="lg_centrar"> 
+      <div className="logoizq">
+        <div className="logo">
+          <a><img className="logo" src={logo} alt="Logo" width="200px"/></a>
+        </div>     
+      </div>       
   
-  <div className ="usu_der">  
-            <div>
-              <label>Usuario:</label>
-              
-              <label>Dia de la semana: </label>
-            </div>
-           
-    </div>
+      <div className="usu_der">  
+        <div>
+          <label>Usuario:</label>
+          <label>Dia de la semana: </label>
+        </div>
+      </div>
     
-    <div>
-      <h3>TU ALIMENTACIÓN ÓPTIMA ES POSIBLE</h3>
-      <h3>TE AYUDO A ORGANIZARTE</h3>
-      <h3>para tus compras, para tus recetas, para tus metas</h3>
-    </div>
+      <div>
+        <h3>TU ALIMENTACIÓN ÓPTIMA ES POSIBLE</h3>
+        <h3>TE AYUDO A ORGANIZARTE</h3>
+        <h3>para tus compras, para tus recetas, para tus metas</h3>
+      </div>
         
-    <div className = "plato">Plato</div>  
-    <div className = "metas">Metas</div>  
+      <div className="plato">Plato</div>  
+      <div className="metas">Metas</div>  
     </div> 
-<BrowserRouter>
-    <Navbar />
-    <Routes>
-        
-        <Route  path="/datos" element={<Misdatos />}></Route>
-        <Route  path="/recetas" element={<Receta />}></Route>
-        <Route  path="/dia" element={<Dia />}></Route>
-        <Route  path="/semana" element={<Misemana />}></Route>
-        <Route  path="/mes" element={<Mes />}></Route>
-        <Route  path="/trimestre" element={<Trimestre />}></Route>
-        <Route  path="/semestre" element ={<Semestre />}></Route>
-        <Route  path="/anual" element={<Anual />}></Route>
-        <Route  path="/metas" element={<Metas />}></Route>
-        
-
-    </Routes>
-
-</BrowserRouter>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/datos" element={<Misdatos />} />
+        <Route path="/recetas" element={<Receta />} />
+        <Route path="/dia" element={<Dia />} />
+        <Route path="/semana" element={<Misemana />} />
+        <Route path="/mes" element={<Mes />} />
+        <Route path="/trimestre" element={<Trimestre />} />
+        <Route path="/semestre" element={<Semestre />} />
+        <Route path="/anual" element={<Anual />} />
+        <Route path="/metas" element={<Metas />} />
+      </Routes>
+    </BrowserRouter>
   </header>
-  
-  
 </div>
-  </h3>
-  
-  );
+);
 }
 
 export default Paginappal;

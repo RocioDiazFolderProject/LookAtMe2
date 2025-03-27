@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(199, 196, 196); /*despues ver fondo con imagen */
-  color: white;
+  background: white; /*despues ver fondo con imagen */
+  color: black;
 }
 
 code {
@@ -15,7 +15,7 @@ code {
 }
 
 button{
-  background-color: rgb(182, 99, 43);
+  /*background-color: rgb(182, 99, 43);*/
   
   height:auto;
   width: 150px;
@@ -23,12 +23,12 @@ button{
   
 }
 h3{
-  background-color: rgb(12, 39, 66);
+ /* background-color: rgb(12, 39, 66);*/
 }
 
 h1{
-color: gold;
-background-color: rgb(111, 113, 114);
+/*color: gold;*/
+/*background-color: rgb(111, 113, 114);*/
 text-align: center;
 font-style: italic;
 font-size:larger;
@@ -39,7 +39,7 @@ font-size:larger;
 }
 
 .menu{
-  background-color: rgb(111, 113, 114);
+ /* background-color: rgb(111, 113, 114);*/
 }
 
 .plato
@@ -47,7 +47,7 @@ font-size:larger;
 ,.usu_der
 {
  
-  color: gold;
+  /*color: gold;*/
   /*background-color: rgb(111, 113, 114);*/
   margin-left: 15px;
   margin-right: 5px;
@@ -58,7 +58,7 @@ font-size:larger;
   
 }
 .metas{
-  color: gold;
+  /*color: gold;*/
   /*background-color: rgb(111, 113, 114);*/
   margin-left: 15px;
   margin-right: 15px;
@@ -78,9 +78,9 @@ ul
 ,li
 {
 
-  color: gold;
+  /*color: gold;*/
   display: flex;
-  background-color: rgb(111, 113, 114);
+  /*background-color: rgb(111, 113, 114);*/
   text-align: center;
   
   font-size:small;
@@ -90,7 +90,7 @@ ul
 }
 
 .misdatos{
-  background-color: olivedrab;
+  /*background-color: orange;*/
   display:table-row-group;
   font-size:small;
   margin-left: 15px;
@@ -99,10 +99,10 @@ ul
 }
 
 .header_datos{
-  background-color: olivedrab;
+  /*background-color: olivedrab;*/
 }
 .form_datos{
-  background-color: olivedrab;
+  /*background-color: olivedrab;*/
   display: flex;
   
   font-size:small;
